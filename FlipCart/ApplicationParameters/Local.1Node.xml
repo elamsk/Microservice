@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/FlipCart" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="Stateful1_PartitionCount" Value="1" />
+    <Parameter Name="Stateful1_MinReplicaSetSize" Value="1" />
+    <Parameter Name="Stateful1_TargetReplicaSetSize" Value="1" />
+    <Parameter Name="ClothClient_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="ClothClient_InstanceCount" Value="1" />
+    <Parameter Name="ClothingProduct_PartitionCount" Value="1" />
+    <Parameter Name="ClothingProduct_MinReplicaSetSize" Value="1" />
+    <Parameter Name="ClothingProduct_TargetReplicaSetSize" Value="1" />
+  </Parameters>
+</Application>

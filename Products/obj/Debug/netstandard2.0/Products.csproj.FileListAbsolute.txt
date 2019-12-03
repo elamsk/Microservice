@@ -1,0 +1,7 @@
+C:\Users\elampsiv\source\repos\FlipCart\Products\bin\Debug\netstandard2.0\Products.deps.json
+C:\Users\elampsiv\source\repos\FlipCart\Products\bin\Debug\netstandard2.0\Products.dll
+C:\Users\elampsiv\source\repos\FlipCart\Products\bin\Debug\netstandard2.0\Products.pdb
+C:\Users\elampsiv\source\repos\FlipCart\Products\obj\Debug\netstandard2.0\Products.AssemblyInfoInputs.cache
+C:\Users\elampsiv\source\repos\FlipCart\Products\obj\Debug\netstandard2.0\Products.AssemblyInfo.cs
+C:\Users\elampsiv\source\repos\FlipCart\Products\obj\Debug\netstandard2.0\Products.dll
+C:\Users\elampsiv\source\repos\FlipCart\Products\obj\Debug\netstandard2.0\Products.pdb

@@ -1,0 +1,173 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\elampsiv\\source\\repos\\FlipCart\\ClothClient\\ClothClient.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\elampsiv\\source\\repos\\FlipCart\\ClothClient\\ClothClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elampsiv\\source\\repos\\FlipCart\\ClothClient\\ClothClient.csproj",
+        "projectName": "ClothClient",
+        "projectPath": "C:\\Users\\elampsiv\\source\\repos\\FlipCart\\ClothClient\\ClothClient.csproj",
+        "packagesPath": "C:\\Users\\elampsiv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elampsiv\\source\\repos\\FlipCart\\ClothClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\elampsiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\elampsiv\\source\\repos\\FlipCart\\Products\\Products.csproj": {
+                "projectPath": "C:\\Users\\elampsiv\\source\\repos\\FlipCart\\Products\\Products.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.0-preview3.19553.2, )"
+            },
+            "Microsoft.ServiceFabric.AspNetCore.Kestrel": {
+              "target": "Package",
+              "version": "[4.0.457, )"
+            },
+            "Microsoft.ServiceFabric.Services.Remoting": {
+              "target": "Package",
+              "version": "[4.0.457, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.0-preview3.19558.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.0-preview3.19555.2, 3.1.0-preview3.19555.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.0-preview3.19553.2, 3.1.0-preview3.19553.2]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.1.0-preview3.19553.2, 3.1.0-preview3.19553.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview3-014645\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\elampsiv\\source\\repos\\FlipCart\\Products\\Products.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elampsiv\\source\\repos\\FlipCart\\Products\\Products.csproj",
+        "projectName": "Products",
+        "projectPath": "C:\\Users\\elampsiv\\source\\repos\\FlipCart\\Products\\Products.csproj",
+        "packagesPath": "C:\\Users\\elampsiv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elampsiv\\source\\repos\\FlipCart\\Products\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\elampsiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.ServiceFabric.Services.Remoting": {
+              "target": "Package",
+              "version": "[4.0.457, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview3-014645\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
